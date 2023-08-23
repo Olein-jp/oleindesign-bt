@@ -1,0 +1,29 @@
+body .is-layout-constrained {
+  //.wp-block-buttons {
+  //  margin-left: 0 !important;
+  //  margin-right: 0 !important;
+  //}
+}
+
+.wp-block-buttons {
+  /**
+  Forced to zero on both side margin
+   */
+  &.wp-block-buttons_forced-side-margin-to-zero {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  /**
+  forced button's width to full only sm
+   */
+  &.wp-block-buttons_full-width-sm {
+    > .wp-block-button {
+      @media ( max-width: 600px ) {
+        width: 100%;
+        a {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

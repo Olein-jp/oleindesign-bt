@@ -1,0 +1,19 @@
+.site-contents ol:not([class*=wp-block-]),
+.site-contents ul:not([class*=wp-block-]) {
+  padding-left: 2em;
+}
+.site-contents ol:not([class*=wp-block-]) li,
+.site-contents ul:not([class*=wp-block-]) li {
+  margin-bottom: calc(var(--wp--preset--spacing--xs) / 2);
+}
+.site-contents ol:not([class*=wp-block-]) li:last-child,
+.site-contents ul:not([class*=wp-block-]) li:last-child {
+  margin-bottom: 0;
+}
+.site-contents ol:not([class*=wp-block-]) li ol,
+.site-contents ol:not([class*=wp-block-]) li ul,
+.site-contents ul:not([class*=wp-block-]) li ol,
+.site-contents ul:not([class*=wp-block-]) li ul {
+  margin-top: calc(var(--wp--preset--spacing--xs) / 2);
+  margin-bottom: calc(var(--wp--preset--spacing--xs) / 2);
+}

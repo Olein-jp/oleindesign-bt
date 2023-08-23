@@ -1,0 +1,63 @@
+.wp-block-group {
+  &.bg-number-01,
+  &.bg-number-02,
+  &.bg-number-03,
+  &.bg-number-04,
+  &.bg-number-05,
+  &.bg-number-06,
+  &.bg-number-07,
+  &.bg-number-08,
+  &.bg-number-09,
+  &.bg-number-10 {
+    position: relative;
+    z-index: 0;
+    &:before {
+      position: absolute;
+      display: inline-block;
+      top: 50%;
+      left: 50%;
+      width: 150px;
+      height: 150px;
+      margin-top: -75px;
+      margin-left: -75px;
+      font-size: 150px;
+      font-family: "Permanent Marker";
+      font-weight: 400;
+      color:  var( --wp--preset--color--contrast);
+      line-height: 1;
+      z-index: -1;
+      text-align: center;
+    }
+  }
+
+  &.bg-number-01:before {
+    content: '1';
+  }
+  &.bg-number-02:before {
+    content: '2';
+  }
+  &.bg-number-03:before {
+    content: '3';
+  }
+  &.bg-number-04:before {
+    content: '4';
+  }
+  &.bg-number-05:before {
+    content: '5';
+  }
+  &.bg-number-06:before {
+    content: '6';
+  }
+  &.bg-number-07:before {
+    content: '7';
+  }
+  &.bg-number-08:before {
+    content: '8';
+  }
+  &.bg-number-09:before {
+    content: '9';
+  }
+  &.bg-number-10:before {
+    content: '10';
+  }
+}

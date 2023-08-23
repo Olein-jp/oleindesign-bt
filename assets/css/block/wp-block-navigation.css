@@ -1,0 +1,16 @@
+.wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item__content {
+  padding-top: var(--wp--preset--spacing--s);
+  padding-bottom: var(--wp--preset--spacing--s);
+}
+.wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item.has-child .wp-block-navigation-submenu {
+  min-width: 400px;
+  top: 100%;
+  left: -50px;
+  border: none;
+}
+.wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item.has-child .wp-block-navigation-item:nth-child(2n) {
+  background-color: #ffffff;
+}
+.wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item.has-child .wp-block-navigation-item:nth-child(2n-1) {
+  background-color: #f4f4f4;
+}

@@ -1,0 +1,3546 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"blocks": {
+			"core/code": {
+				"appearanceTools": true,
+				"color": {
+					"background": true,
+					"custom": true,
+					"customDuotone": true,
+					"customGradient": true,
+					"defaultDuotone": true,
+					"duotone": [
+						{
+							"colors": [
+								"#333333",
+								"#ffffff"
+							],
+							"name": "Base and Contrast",
+							"slug": "base-and-contrast"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#024059"
+							],
+							"name": "Base and Primary",
+							"slug": "base-and-primary"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#F2CB05"
+							],
+							"name": "Base and Secondary",
+							"slug": "base-and-secondary"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#048ABF"
+							],
+							"name": "Base and Tertiary",
+							"slug": "base-and-tertiary"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#F29057"
+							],
+							"name": "Base and Quaternary",
+							"slug": "base-and-quaternary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#333333"
+							],
+							"name": "Contrast and Base",
+							"slug": "contrast-and-base"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#024059"
+							],
+							"name": "Contrast and Primary",
+							"slug": "contrast-and-primary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#F2CB05"
+							],
+							"name": "Contrast and Secondary",
+							"slug": "contrast-and-secondary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#048ABF"
+							],
+							"name": "Contrast and Tertiary",
+							"slug": "contrast-and-tertiary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#F29057"
+							],
+							"name": "Contrast and Quaternary",
+							"slug": "contrast-and-quaternary"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#333333"
+							],
+							"name": "Primary and Base",
+							"slug": "primary-and-base"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#ffffff"
+							],
+							"name": "Primary and Contrast",
+							"slug": "primary-and-contrast"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#F2CB05"
+							],
+							"name": "Primary and Secondary",
+							"slug": "primary-and-secondary"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#048ABF"
+							],
+							"name": "Primary and Tertiary",
+							"slug": "primary-and-tertiary"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#F29057"
+							],
+							"name": "Primary and Quaternary",
+							"slug": "primary-and-quaternary"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#333333"
+							],
+							"name": "Secondary and Base",
+							"slug": "secondary-and-base"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#ffffff"
+							],
+							"name": "Secondary and Contrast",
+							"slug": "secondary-and-contrast"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#024059"
+							],
+							"name": "Secondary and Primary",
+							"slug": "secondary-and-primary"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#048ABF"
+							],
+							"name": "Secondary and Tertiary",
+							"slug": "secondary-and-tertiary"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#F29057"
+							],
+							"name": "Secondary and Quaternary",
+							"slug": "secondary-and-quaternary"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#333333"
+							],
+							"name": "Tertiary and Base",
+							"slug": "tertiary-and-base"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#ffffff"
+							],
+							"name": "Tertiary and Contrast",
+							"slug": "tertiary-and-contrast"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#024059"
+							],
+							"name": "Tertiary and Primary",
+							"slug": "tertiary-and-primary"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#F2CB05"
+							],
+							"name": "Tertiary and Secondary",
+							"slug": "tertiary-and-secondary"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#F29057"
+							],
+							"name": "Tertiary and Quaternary",
+							"slug": "tertiary-and-quaternary"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#333333"
+							],
+							"name": "Quaternary and Base",
+							"slug": "quaternary-and-base"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#ffffff"
+							],
+							"name": "Quaternary and Contrast",
+							"slug": "quaternary-and-contrast"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#024059"
+							],
+							"name": "Quaternary and Primary",
+							"slug": "quaternary-and-primary"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#F2CB05"
+							],
+							"name": "Quaternary and Secondary",
+							"slug": "quaternary-and-secondary"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#048ABF"
+							],
+							"name": "Quaternary and Tertiary",
+							"slug": "quaternary-and-tertiary"
+						}
+					],
+					"gradients": [
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--contrast))",
+							"name": "Base to Contrast",
+							"slug": "base-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--primary))",
+							"name": "Base to Primary",
+							"slug": "base-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--secondary))",
+							"name": "Base to Secondary",
+							"slug": "base-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--tertiary))",
+							"name": "Base to Tertiary",
+							"slug": "base-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--quaternary))",
+							"name": "Base to Quaternary",
+							"slug": "base-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--base))",
+							"name": "Contrast to Base",
+							"slug": "contrast-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--primary))",
+							"name": "Contrast to Primary",
+							"slug": "contrast-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--secondary))",
+							"name": "Contrast to Secondary",
+							"slug": "contrast-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--tertiary))",
+							"name": "Contrast to Tertiary",
+							"slug": "contrast-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--quaternary))",
+							"name": "Contrast to Quaternary",
+							"slug": "contrast-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--base))",
+							"name": "Primary to Base",
+							"slug": "primary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--contrast))",
+							"name": "Primary to Contrast",
+							"slug": "primary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--secondary))",
+							"name": "Primary to Secondary",
+							"slug": "primary-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--tertiary))",
+							"name": "Primary to Tertiary",
+							"slug": "primary-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--quaternary))",
+							"name": "Primary to Quaternary",
+							"slug": "primary-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--base))",
+							"name": "Secondary to Base",
+							"slug": "secondary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--contrast))",
+							"name": "Secondary to Contrast",
+							"slug": "secondary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--primary))",
+							"name": "Secondary to Primary",
+							"slug": "secondary-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--tertiary))",
+							"name": "Secondary to Tertiary",
+							"slug": "secondary-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--quaternary))",
+							"name": "Secondary to Quaternary",
+							"slug": "secondary-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--base))",
+							"name": "Tertiary to Base",
+							"slug": "tertiary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--contrast))",
+							"name": "Tertiary to Contrast",
+							"slug": "tertiary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--primary))",
+							"name": "Tertiary to Primary",
+							"slug": "tertiary-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--secondary))",
+							"name": "Tertiary to Secondary",
+							"slug": "tertiary-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--quaternary))",
+							"name": "Tertiary to Quaternary",
+							"slug": "tertiary-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--base))",
+							"name": "Quaternary to Base",
+							"slug": "quaternary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--contrast))",
+							"name": "Quaternary to Contrast",
+							"slug": "quaternary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--primary))",
+							"name": "Quaternary to Primary",
+							"slug": "quaternary-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--secondary))",
+							"name": "Quaternary to Secondary",
+							"slug": "quaternary-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--tertiary))",
+							"name": "Quaternary to Tertiary",
+							"slug": "quaternary-to-tertiary"
+						}
+					],
+					"palette": [
+						{
+							"color": "#333333",
+							"name": "Base",
+							"slug": "base"
+						},
+						{
+							"color": "#ffffff",
+							"name": "Contrast",
+							"slug": "contrast"
+						},
+						{
+							"color": "#ff9000",
+							"name": "Primary",
+							"slug": "primary"
+						},
+						{
+							"color": "#0073B3",
+							"name": "Secondary",
+							"slug": "secondary"
+						},
+						{
+							"color": "#B36500",
+							"name": "Tertiary",
+							"slug": "tertiary"
+						},
+						{
+							"color": "#00A4FF",
+							"name": "Quaternary",
+							"slug": "quaternary"
+						},
+						{
+							"color": "#f4f4f4",
+							"name": "Wild Sand",
+							"slug": "wild-sand"
+						},
+						{
+							"color": "#333333",
+							"name": "Darker Gray",
+							"slug": "darker-gray"
+						},
+						{
+							"color": "#666666",
+							"name": "Dark Gray",
+							"slug": "dark-gray"
+						},
+						{
+							"color": "#999999",
+							"name": "Light Gray",
+							"slug": "light-gray"
+						},
+						{
+							"color": "#cccccc",
+							"name": "Lighter Gray",
+							"slug": "lighter-gray"
+						}
+					],
+					"text": true
+				},
+				"custom": {
+					"typography": {
+						"letter-spacing": {
+							"body": "0.01em",
+							"heading": "0em"
+						},
+						"line-height": {
+							"comfortable": 1.625,
+							"loose": 2,
+							"none": 1,
+							"normal": 1.3999999999999999,
+							"tight": 1.1000000000000001,
+							"tighter": 1.25
+						}
+					}
+				},
+				"layout": {
+					"contentSize": false,
+					"wideSize": false
+				},
+				"shadow": {
+					"defaultPresets": true,
+					"presets": [
+						{
+							"name": "Blur Shadow",
+							"shadow": "0px 0px 10px var( --wp--preset--color--base )",
+							"slug": "blur-shadow"
+						}
+					]
+				},
+				"spacing": {
+					"customSpacingSize": true,
+					"spacingScale": {
+						"increment": 1.5,
+						"mediumStep": 1.5,
+						"operator": "*",
+						"steps": 7,
+						"unit": "rem"
+					},
+					"spacingSizes": [
+						{
+							"name": "XS",
+							"size": "clamp(0.63rem, calc(0.54rem + 0.36vw), 0.81rem)",
+							"slug": "xs"
+						},
+						{
+							"name": "S",
+							"size": "clamp(0.94rem, calc(0.80rem + 0.61vw), 1.25rem)",
+							"slug": "s"
+						},
+						{
+							"name": "M",
+							"size": "clamp(1.25rem, calc(1.05rem + 0.85vw), 1.69rem)",
+							"slug": "m"
+						},
+						{
+							"name": "L",
+							"size": "clamp(1.88rem, calc(1.59rem + 1.21vw), 2.50rem)",
+							"slug": "l"
+						},
+						{
+							"name": "XL",
+							"size": "clamp(2.81rem, calc(2.39rem + 1.82vw), 3.75rem)",
+							"slug": "xl"
+						},
+						{
+							"name": "2XL",
+							"size": "clamp(3.75rem, calc(3.18rem + 2.42vw), 5.00rem)",
+							"slug": "2-xl"
+						},
+						{
+							"name": "3XL",
+							"size": "clamp(5.63rem, calc(4.77rem + 3.64vw), 7.50rem)",
+							"slug": "3-xl"
+						}
+					],
+					"units": [
+						"%",
+						"px",
+						"em",
+						"rem",
+						"vh",
+						"vw"
+					]
+				},
+				"typography": {
+					"customFontSize": true,
+					"fluid": true,
+					"fontFamilies": [
+						{
+							"fontFamily": "\"Helvetica Neue\", \"Helvetica\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Arial\", \"Yu Gothic\", \"Meiryo\", sans-serif",
+							"name": "Default - System Sans Serif",
+							"slug": "system-sans-serif"
+						},
+						{
+							"fontFace": [
+								{
+									"fontFamily": "Noto Sans JP",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "400",
+									"src": [
+										"file:./assets/fonts/NotoSansJP-Regular.woff2"
+									]
+								},
+								{
+									"fontFamily": "Noto Sans JP",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "700",
+									"src": [
+										"file:./assets/fonts/NotoSansJP-Bold.woff2"
+									]
+								}
+							],
+							"fontFamily": "\"Noto Sans JP\", sans-serif",
+							"name": "Noto Sans JP",
+							"slug": "noto-sans-jp"
+						},
+						{
+							"fontFamily": "\"Times New Roman\", \"YuMincho\", \"Hiragino Mincho ProN\", \"Yu Mincho\", \"MS PMincho\", serif",
+							"name": "System Serif",
+							"slug": "system-serif"
+						},
+						{
+							"fontFamily": "ui-monospace, Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
+							"name": "System Monospace",
+							"slug": "system-monospace"
+						}
+					],
+					"fontSizes": [
+						{
+							"fluid": {
+								"max": "15px",
+								"min": "13.33px"
+							},
+							"name": "XS",
+							"size": "13.33px",
+							"slug": "xs"
+						},
+						{
+							"fluid": {
+								"max": "18px",
+								"min": "16px"
+							},
+							"name": "S",
+							"size": "16px",
+							"slug": "s"
+						},
+						{
+							"fluid": {
+								"max": "21.6px",
+								"min": "19.2px"
+							},
+							"name": "M",
+							"size": "19.2px",
+							"slug": "m"
+						},
+						{
+							"fluid": {
+								"max": "25.92px",
+								"min": "23.04px"
+							},
+							"name": "L",
+							"size": "23.04px",
+							"slug": "l"
+						},
+						{
+							"fluid": {
+								"max": "31.10px",
+								"min": "27.65px"
+							},
+							"name": "XL",
+							"size": "27.65px",
+							"slug": "xl"
+						},
+						{
+							"fluid": {
+								"max": "37.32px",
+								"min": "33.18px"
+							},
+							"name": "2XL",
+							"size": "33.18px",
+							"slug": "2-xl"
+						},
+						{
+							"fluid": {
+								"max": "44.79px",
+								"min": "39.81px"
+							},
+							"name": "3XL",
+							"size": "39.81px",
+							"slug": "3-xl"
+						},
+						{
+							"fluid": {
+								"max": "53.75px",
+								"min": "47.78px"
+							},
+							"name": "4XL",
+							"size": "47.78px",
+							"slug": "4-xl"
+						}
+					],
+					"letterSpacing": true,
+					"textDecoration": true,
+					"textTransform": true
+				},
+				"useRootPaddingAwareAlignments": true
+			},
+			"core/details": {
+				"appearanceTools": true,
+				"color": {
+					"background": true,
+					"custom": true,
+					"customDuotone": true,
+					"customGradient": true,
+					"defaultDuotone": true,
+					"duotone": [
+						{
+							"colors": [
+								"#333333",
+								"#ffffff"
+							],
+							"name": "Base and Contrast",
+							"slug": "base-and-contrast"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#024059"
+							],
+							"name": "Base and Primary",
+							"slug": "base-and-primary"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#F2CB05"
+							],
+							"name": "Base and Secondary",
+							"slug": "base-and-secondary"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#048ABF"
+							],
+							"name": "Base and Tertiary",
+							"slug": "base-and-tertiary"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#F29057"
+							],
+							"name": "Base and Quaternary",
+							"slug": "base-and-quaternary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#333333"
+							],
+							"name": "Contrast and Base",
+							"slug": "contrast-and-base"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#024059"
+							],
+							"name": "Contrast and Primary",
+							"slug": "contrast-and-primary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#F2CB05"
+							],
+							"name": "Contrast and Secondary",
+							"slug": "contrast-and-secondary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#048ABF"
+							],
+							"name": "Contrast and Tertiary",
+							"slug": "contrast-and-tertiary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#F29057"
+							],
+							"name": "Contrast and Quaternary",
+							"slug": "contrast-and-quaternary"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#333333"
+							],
+							"name": "Primary and Base",
+							"slug": "primary-and-base"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#ffffff"
+							],
+							"name": "Primary and Contrast",
+							"slug": "primary-and-contrast"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#F2CB05"
+							],
+							"name": "Primary and Secondary",
+							"slug": "primary-and-secondary"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#048ABF"
+							],
+							"name": "Primary and Tertiary",
+							"slug": "primary-and-tertiary"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#F29057"
+							],
+							"name": "Primary and Quaternary",
+							"slug": "primary-and-quaternary"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#333333"
+							],
+							"name": "Secondary and Base",
+							"slug": "secondary-and-base"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#ffffff"
+							],
+							"name": "Secondary and Contrast",
+							"slug": "secondary-and-contrast"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#024059"
+							],
+							"name": "Secondary and Primary",
+							"slug": "secondary-and-primary"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#048ABF"
+							],
+							"name": "Secondary and Tertiary",
+							"slug": "secondary-and-tertiary"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#F29057"
+							],
+							"name": "Secondary and Quaternary",
+							"slug": "secondary-and-quaternary"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#333333"
+							],
+							"name": "Tertiary and Base",
+							"slug": "tertiary-and-base"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#ffffff"
+							],
+							"name": "Tertiary and Contrast",
+							"slug": "tertiary-and-contrast"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#024059"
+							],
+							"name": "Tertiary and Primary",
+							"slug": "tertiary-and-primary"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#F2CB05"
+							],
+							"name": "Tertiary and Secondary",
+							"slug": "tertiary-and-secondary"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#F29057"
+							],
+							"name": "Tertiary and Quaternary",
+							"slug": "tertiary-and-quaternary"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#333333"
+							],
+							"name": "Quaternary and Base",
+							"slug": "quaternary-and-base"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#ffffff"
+							],
+							"name": "Quaternary and Contrast",
+							"slug": "quaternary-and-contrast"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#024059"
+							],
+							"name": "Quaternary and Primary",
+							"slug": "quaternary-and-primary"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#F2CB05"
+							],
+							"name": "Quaternary and Secondary",
+							"slug": "quaternary-and-secondary"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#048ABF"
+							],
+							"name": "Quaternary and Tertiary",
+							"slug": "quaternary-and-tertiary"
+						}
+					],
+					"gradients": [
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--contrast))",
+							"name": "Base to Contrast",
+							"slug": "base-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--primary))",
+							"name": "Base to Primary",
+							"slug": "base-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--secondary))",
+							"name": "Base to Secondary",
+							"slug": "base-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--tertiary))",
+							"name": "Base to Tertiary",
+							"slug": "base-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--quaternary))",
+							"name": "Base to Quaternary",
+							"slug": "base-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--base))",
+							"name": "Contrast to Base",
+							"slug": "contrast-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--primary))",
+							"name": "Contrast to Primary",
+							"slug": "contrast-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--secondary))",
+							"name": "Contrast to Secondary",
+							"slug": "contrast-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--tertiary))",
+							"name": "Contrast to Tertiary",
+							"slug": "contrast-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--quaternary))",
+							"name": "Contrast to Quaternary",
+							"slug": "contrast-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--base))",
+							"name": "Primary to Base",
+							"slug": "primary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--contrast))",
+							"name": "Primary to Contrast",
+							"slug": "primary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--secondary))",
+							"name": "Primary to Secondary",
+							"slug": "primary-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--tertiary))",
+							"name": "Primary to Tertiary",
+							"slug": "primary-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--quaternary))",
+							"name": "Primary to Quaternary",
+							"slug": "primary-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--base))",
+							"name": "Secondary to Base",
+							"slug": "secondary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--contrast))",
+							"name": "Secondary to Contrast",
+							"slug": "secondary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--primary))",
+							"name": "Secondary to Primary",
+							"slug": "secondary-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--tertiary))",
+							"name": "Secondary to Tertiary",
+							"slug": "secondary-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--quaternary))",
+							"name": "Secondary to Quaternary",
+							"slug": "secondary-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--base))",
+							"name": "Tertiary to Base",
+							"slug": "tertiary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--contrast))",
+							"name": "Tertiary to Contrast",
+							"slug": "tertiary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--primary))",
+							"name": "Tertiary to Primary",
+							"slug": "tertiary-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--secondary))",
+							"name": "Tertiary to Secondary",
+							"slug": "tertiary-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--quaternary))",
+							"name": "Tertiary to Quaternary",
+							"slug": "tertiary-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--base))",
+							"name": "Quaternary to Base",
+							"slug": "quaternary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--contrast))",
+							"name": "Quaternary to Contrast",
+							"slug": "quaternary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--primary))",
+							"name": "Quaternary to Primary",
+							"slug": "quaternary-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--secondary))",
+							"name": "Quaternary to Secondary",
+							"slug": "quaternary-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--tertiary))",
+							"name": "Quaternary to Tertiary",
+							"slug": "quaternary-to-tertiary"
+						}
+					],
+					"palette": [
+						{
+							"color": "#333333",
+							"name": "Base",
+							"slug": "base"
+						},
+						{
+							"color": "#ffffff",
+							"name": "Contrast",
+							"slug": "contrast"
+						},
+						{
+							"color": "#ff9000",
+							"name": "Primary",
+							"slug": "primary"
+						},
+						{
+							"color": "#0073B3",
+							"name": "Secondary",
+							"slug": "secondary"
+						},
+						{
+							"color": "#B36500",
+							"name": "Tertiary",
+							"slug": "tertiary"
+						},
+						{
+							"color": "#00A4FF",
+							"name": "Quaternary",
+							"slug": "quaternary"
+						},
+						{
+							"color": "#f4f4f4",
+							"name": "Wild Sand",
+							"slug": "wild-sand"
+						},
+						{
+							"color": "#333333",
+							"name": "Darker Gray",
+							"slug": "darker-gray"
+						},
+						{
+							"color": "#666666",
+							"name": "Dark Gray",
+							"slug": "dark-gray"
+						},
+						{
+							"color": "#999999",
+							"name": "Light Gray",
+							"slug": "light-gray"
+						},
+						{
+							"color": "#cccccc",
+							"name": "Lighter Gray",
+							"slug": "lighter-gray"
+						}
+					],
+					"text": true
+				},
+				"custom": {
+					"typography": {
+						"letter-spacing": {
+							"body": "0.01em",
+							"heading": "0em"
+						},
+						"line-height": {
+							"comfortable": 1.625,
+							"loose": 2,
+							"none": 1,
+							"normal": 1.3999999999999999,
+							"tight": 1.1000000000000001,
+							"tighter": 1.25
+						}
+					}
+				},
+				"layout": {
+					"contentSize": false,
+					"wideSize": false
+				},
+				"shadow": {
+					"defaultPresets": true,
+					"presets": [
+						{
+							"name": "Blur Shadow",
+							"shadow": "0px 0px 10px var( --wp--preset--color--base )",
+							"slug": "blur-shadow"
+						}
+					]
+				},
+				"spacing": {
+					"customSpacingSize": true,
+					"spacingScale": {
+						"increment": 1.5,
+						"mediumStep": 1.5,
+						"operator": "*",
+						"steps": 7,
+						"unit": "rem"
+					},
+					"spacingSizes": [
+						{
+							"name": "XS",
+							"size": "clamp(0.63rem, calc(0.54rem + 0.36vw), 0.81rem)",
+							"slug": "xs"
+						},
+						{
+							"name": "S",
+							"size": "clamp(0.94rem, calc(0.80rem + 0.61vw), 1.25rem)",
+							"slug": "s"
+						},
+						{
+							"name": "M",
+							"size": "clamp(1.25rem, calc(1.05rem + 0.85vw), 1.69rem)",
+							"slug": "m"
+						},
+						{
+							"name": "L",
+							"size": "clamp(1.88rem, calc(1.59rem + 1.21vw), 2.50rem)",
+							"slug": "l"
+						},
+						{
+							"name": "XL",
+							"size": "clamp(2.81rem, calc(2.39rem + 1.82vw), 3.75rem)",
+							"slug": "xl"
+						},
+						{
+							"name": "2XL",
+							"size": "clamp(3.75rem, calc(3.18rem + 2.42vw), 5.00rem)",
+							"slug": "2-xl"
+						},
+						{
+							"name": "3XL",
+							"size": "clamp(5.63rem, calc(4.77rem + 3.64vw), 7.50rem)",
+							"slug": "3-xl"
+						}
+					],
+					"units": [
+						"%",
+						"px",
+						"em",
+						"rem",
+						"vh",
+						"vw"
+					]
+				},
+				"typography": {
+					"customFontSize": true,
+					"fluid": true,
+					"fontFamilies": [
+						{
+							"fontFamily": "\"Helvetica Neue\", \"Helvetica\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Arial\", \"Yu Gothic\", \"Meiryo\", sans-serif",
+							"name": "Default - System Sans Serif",
+							"slug": "system-sans-serif"
+						},
+						{
+							"fontFace": [
+								{
+									"fontFamily": "Noto Sans JP",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "400",
+									"src": [
+										"file:./assets/fonts/NotoSansJP-Regular.woff2"
+									]
+								},
+								{
+									"fontFamily": "Noto Sans JP",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "700",
+									"src": [
+										"file:./assets/fonts/NotoSansJP-Bold.woff2"
+									]
+								}
+							],
+							"fontFamily": "\"Noto Sans JP\", sans-serif",
+							"name": "Noto Sans JP",
+							"slug": "noto-sans-jp"
+						},
+						{
+							"fontFamily": "\"Times New Roman\", \"YuMincho\", \"Hiragino Mincho ProN\", \"Yu Mincho\", \"MS PMincho\", serif",
+							"name": "System Serif",
+							"slug": "system-serif"
+						},
+						{
+							"fontFamily": "ui-monospace, Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
+							"name": "System Monospace",
+							"slug": "system-monospace"
+						}
+					],
+					"fontSizes": [
+						{
+							"fluid": {
+								"max": "15px",
+								"min": "13.33px"
+							},
+							"name": "XS",
+							"size": "13.33px",
+							"slug": "xs"
+						},
+						{
+							"fluid": {
+								"max": "18px",
+								"min": "16px"
+							},
+							"name": "S",
+							"size": "16px",
+							"slug": "s"
+						},
+						{
+							"fluid": {
+								"max": "21.6px",
+								"min": "19.2px"
+							},
+							"name": "M",
+							"size": "19.2px",
+							"slug": "m"
+						},
+						{
+							"fluid": {
+								"max": "25.92px",
+								"min": "23.04px"
+							},
+							"name": "L",
+							"size": "23.04px",
+							"slug": "l"
+						},
+						{
+							"fluid": {
+								"max": "31.10px",
+								"min": "27.65px"
+							},
+							"name": "XL",
+							"size": "27.65px",
+							"slug": "xl"
+						},
+						{
+							"fluid": {
+								"max": "37.32px",
+								"min": "33.18px"
+							},
+							"name": "2XL",
+							"size": "33.18px",
+							"slug": "2-xl"
+						},
+						{
+							"fluid": {
+								"max": "44.79px",
+								"min": "39.81px"
+							},
+							"name": "3XL",
+							"size": "39.81px",
+							"slug": "3-xl"
+						},
+						{
+							"fluid": {
+								"max": "53.75px",
+								"min": "47.78px"
+							},
+							"name": "4XL",
+							"size": "47.78px",
+							"slug": "4-xl"
+						}
+					],
+					"letterSpacing": true,
+					"textDecoration": true,
+					"textTransform": true
+				},
+				"useRootPaddingAwareAlignments": true
+			},
+			"core/heading": {
+				"appearanceTools": true,
+				"color": {
+					"background": true,
+					"custom": true,
+					"customDuotone": true,
+					"customGradient": true,
+					"defaultDuotone": true,
+					"duotone": [
+						{
+							"colors": [
+								"#333333",
+								"#ffffff"
+							],
+							"name": "Base and Contrast",
+							"slug": "base-and-contrast"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#024059"
+							],
+							"name": "Base and Primary",
+							"slug": "base-and-primary"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#F2CB05"
+							],
+							"name": "Base and Secondary",
+							"slug": "base-and-secondary"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#048ABF"
+							],
+							"name": "Base and Tertiary",
+							"slug": "base-and-tertiary"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#F29057"
+							],
+							"name": "Base and Quaternary",
+							"slug": "base-and-quaternary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#333333"
+							],
+							"name": "Contrast and Base",
+							"slug": "contrast-and-base"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#024059"
+							],
+							"name": "Contrast and Primary",
+							"slug": "contrast-and-primary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#F2CB05"
+							],
+							"name": "Contrast and Secondary",
+							"slug": "contrast-and-secondary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#048ABF"
+							],
+							"name": "Contrast and Tertiary",
+							"slug": "contrast-and-tertiary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#F29057"
+							],
+							"name": "Contrast and Quaternary",
+							"slug": "contrast-and-quaternary"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#333333"
+							],
+							"name": "Primary and Base",
+							"slug": "primary-and-base"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#ffffff"
+							],
+							"name": "Primary and Contrast",
+							"slug": "primary-and-contrast"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#F2CB05"
+							],
+							"name": "Primary and Secondary",
+							"slug": "primary-and-secondary"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#048ABF"
+							],
+							"name": "Primary and Tertiary",
+							"slug": "primary-and-tertiary"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#F29057"
+							],
+							"name": "Primary and Quaternary",
+							"slug": "primary-and-quaternary"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#333333"
+							],
+							"name": "Secondary and Base",
+							"slug": "secondary-and-base"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#ffffff"
+							],
+							"name": "Secondary and Contrast",
+							"slug": "secondary-and-contrast"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#024059"
+							],
+							"name": "Secondary and Primary",
+							"slug": "secondary-and-primary"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#048ABF"
+							],
+							"name": "Secondary and Tertiary",
+							"slug": "secondary-and-tertiary"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#F29057"
+							],
+							"name": "Secondary and Quaternary",
+							"slug": "secondary-and-quaternary"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#333333"
+							],
+							"name": "Tertiary and Base",
+							"slug": "tertiary-and-base"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#ffffff"
+							],
+							"name": "Tertiary and Contrast",
+							"slug": "tertiary-and-contrast"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#024059"
+							],
+							"name": "Tertiary and Primary",
+							"slug": "tertiary-and-primary"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#F2CB05"
+							],
+							"name": "Tertiary and Secondary",
+							"slug": "tertiary-and-secondary"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#F29057"
+							],
+							"name": "Tertiary and Quaternary",
+							"slug": "tertiary-and-quaternary"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#333333"
+							],
+							"name": "Quaternary and Base",
+							"slug": "quaternary-and-base"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#ffffff"
+							],
+							"name": "Quaternary and Contrast",
+							"slug": "quaternary-and-contrast"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#024059"
+							],
+							"name": "Quaternary and Primary",
+							"slug": "quaternary-and-primary"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#F2CB05"
+							],
+							"name": "Quaternary and Secondary",
+							"slug": "quaternary-and-secondary"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#048ABF"
+							],
+							"name": "Quaternary and Tertiary",
+							"slug": "quaternary-and-tertiary"
+						}
+					],
+					"gradients": [
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--contrast))",
+							"name": "Base to Contrast",
+							"slug": "base-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--primary))",
+							"name": "Base to Primary",
+							"slug": "base-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--secondary))",
+							"name": "Base to Secondary",
+							"slug": "base-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--tertiary))",
+							"name": "Base to Tertiary",
+							"slug": "base-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--quaternary))",
+							"name": "Base to Quaternary",
+							"slug": "base-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--base))",
+							"name": "Contrast to Base",
+							"slug": "contrast-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--primary))",
+							"name": "Contrast to Primary",
+							"slug": "contrast-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--secondary))",
+							"name": "Contrast to Secondary",
+							"slug": "contrast-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--tertiary))",
+							"name": "Contrast to Tertiary",
+							"slug": "contrast-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--quaternary))",
+							"name": "Contrast to Quaternary",
+							"slug": "contrast-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--base))",
+							"name": "Primary to Base",
+							"slug": "primary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--contrast))",
+							"name": "Primary to Contrast",
+							"slug": "primary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--secondary))",
+							"name": "Primary to Secondary",
+							"slug": "primary-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--tertiary))",
+							"name": "Primary to Tertiary",
+							"slug": "primary-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--quaternary))",
+							"name": "Primary to Quaternary",
+							"slug": "primary-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--base))",
+							"name": "Secondary to Base",
+							"slug": "secondary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--contrast))",
+							"name": "Secondary to Contrast",
+							"slug": "secondary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--primary))",
+							"name": "Secondary to Primary",
+							"slug": "secondary-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--tertiary))",
+							"name": "Secondary to Tertiary",
+							"slug": "secondary-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--quaternary))",
+							"name": "Secondary to Quaternary",
+							"slug": "secondary-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--base))",
+							"name": "Tertiary to Base",
+							"slug": "tertiary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--contrast))",
+							"name": "Tertiary to Contrast",
+							"slug": "tertiary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--primary))",
+							"name": "Tertiary to Primary",
+							"slug": "tertiary-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--secondary))",
+							"name": "Tertiary to Secondary",
+							"slug": "tertiary-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--quaternary))",
+							"name": "Tertiary to Quaternary",
+							"slug": "tertiary-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--base))",
+							"name": "Quaternary to Base",
+							"slug": "quaternary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--contrast))",
+							"name": "Quaternary to Contrast",
+							"slug": "quaternary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--primary))",
+							"name": "Quaternary to Primary",
+							"slug": "quaternary-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--secondary))",
+							"name": "Quaternary to Secondary",
+							"slug": "quaternary-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--tertiary))",
+							"name": "Quaternary to Tertiary",
+							"slug": "quaternary-to-tertiary"
+						}
+					],
+					"palette": [
+						{
+							"color": "#333333",
+							"name": "Base",
+							"slug": "base"
+						},
+						{
+							"color": "#ffffff",
+							"name": "Contrast",
+							"slug": "contrast"
+						},
+						{
+							"color": "#ff9000",
+							"name": "Primary",
+							"slug": "primary"
+						},
+						{
+							"color": "#0073B3",
+							"name": "Secondary",
+							"slug": "secondary"
+						},
+						{
+							"color": "#B36500",
+							"name": "Tertiary",
+							"slug": "tertiary"
+						},
+						{
+							"color": "#00A4FF",
+							"name": "Quaternary",
+							"slug": "quaternary"
+						},
+						{
+							"color": "#f4f4f4",
+							"name": "Wild Sand",
+							"slug": "wild-sand"
+						},
+						{
+							"color": "#333333",
+							"name": "Darker Gray",
+							"slug": "darker-gray"
+						},
+						{
+							"color": "#666666",
+							"name": "Dark Gray",
+							"slug": "dark-gray"
+						},
+						{
+							"color": "#999999",
+							"name": "Light Gray",
+							"slug": "light-gray"
+						},
+						{
+							"color": "#cccccc",
+							"name": "Lighter Gray",
+							"slug": "lighter-gray"
+						}
+					],
+					"text": true
+				},
+				"custom": {
+					"typography": {
+						"letter-spacing": {
+							"body": "0.01em",
+							"heading": "0em"
+						},
+						"line-height": {
+							"comfortable": 1.625,
+							"loose": 2,
+							"none": 1,
+							"normal": 1.3999999999999999,
+							"tight": 1.1000000000000001,
+							"tighter": 1.25
+						}
+					}
+				},
+				"layout": {
+					"contentSize": false,
+					"wideSize": false
+				},
+				"shadow": {
+					"defaultPresets": true,
+					"presets": [
+						{
+							"name": "Blur Shadow",
+							"shadow": "0px 0px 10px var( --wp--preset--color--base )",
+							"slug": "blur-shadow"
+						}
+					]
+				},
+				"spacing": {
+					"customSpacingSize": true,
+					"spacingScale": {
+						"increment": 1.5,
+						"mediumStep": 1.5,
+						"operator": "*",
+						"steps": 7,
+						"unit": "rem"
+					},
+					"spacingSizes": [
+						{
+							"name": "XS",
+							"size": "clamp(0.63rem, calc(0.54rem + 0.36vw), 0.81rem)",
+							"slug": "xs"
+						},
+						{
+							"name": "S",
+							"size": "clamp(0.94rem, calc(0.80rem + 0.61vw), 1.25rem)",
+							"slug": "s"
+						},
+						{
+							"name": "M",
+							"size": "clamp(1.25rem, calc(1.05rem + 0.85vw), 1.69rem)",
+							"slug": "m"
+						},
+						{
+							"name": "L",
+							"size": "clamp(1.88rem, calc(1.59rem + 1.21vw), 2.50rem)",
+							"slug": "l"
+						},
+						{
+							"name": "XL",
+							"size": "clamp(2.81rem, calc(2.39rem + 1.82vw), 3.75rem)",
+							"slug": "xl"
+						},
+						{
+							"name": "2XL",
+							"size": "clamp(3.75rem, calc(3.18rem + 2.42vw), 5.00rem)",
+							"slug": "2-xl"
+						},
+						{
+							"name": "3XL",
+							"size": "clamp(5.63rem, calc(4.77rem + 3.64vw), 7.50rem)",
+							"slug": "3-xl"
+						}
+					],
+					"units": [
+						"%",
+						"px",
+						"em",
+						"rem",
+						"vh",
+						"vw"
+					]
+				},
+				"typography": {
+					"customFontSize": true,
+					"fluid": true,
+					"fontFamilies": [
+						{
+							"fontFamily": "\"Helvetica Neue\", \"Helvetica\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Arial\", \"Yu Gothic\", \"Meiryo\", sans-serif",
+							"name": "Default - System Sans Serif",
+							"slug": "system-sans-serif"
+						},
+						{
+							"fontFace": [
+								{
+									"fontFamily": "Noto Sans JP",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "400",
+									"src": [
+										"file:./assets/fonts/NotoSansJP-Regular.woff2"
+									]
+								},
+								{
+									"fontFamily": "Noto Sans JP",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "700",
+									"src": [
+										"file:./assets/fonts/NotoSansJP-Bold.woff2"
+									]
+								}
+							],
+							"fontFamily": "\"Noto Sans JP\", sans-serif",
+							"name": "Noto Sans JP",
+							"slug": "noto-sans-jp"
+						},
+						{
+							"fontFamily": "\"Times New Roman\", \"YuMincho\", \"Hiragino Mincho ProN\", \"Yu Mincho\", \"MS PMincho\", serif",
+							"name": "System Serif",
+							"slug": "system-serif"
+						},
+						{
+							"fontFamily": "ui-monospace, Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
+							"name": "System Monospace",
+							"slug": "system-monospace"
+						}
+					],
+					"fontSizes": [
+						{
+							"fluid": {
+								"max": "15px",
+								"min": "13.33px"
+							},
+							"name": "XS",
+							"size": "13.33px",
+							"slug": "xs"
+						},
+						{
+							"fluid": {
+								"max": "18px",
+								"min": "16px"
+							},
+							"name": "S",
+							"size": "16px",
+							"slug": "s"
+						},
+						{
+							"fluid": {
+								"max": "21.6px",
+								"min": "19.2px"
+							},
+							"name": "M",
+							"size": "19.2px",
+							"slug": "m"
+						},
+						{
+							"fluid": {
+								"max": "25.92px",
+								"min": "23.04px"
+							},
+							"name": "L",
+							"size": "23.04px",
+							"slug": "l"
+						},
+						{
+							"fluid": {
+								"max": "31.10px",
+								"min": "27.65px"
+							},
+							"name": "XL",
+							"size": "27.65px",
+							"slug": "xl"
+						},
+						{
+							"fluid": {
+								"max": "37.32px",
+								"min": "33.18px"
+							},
+							"name": "2XL",
+							"size": "33.18px",
+							"slug": "2-xl"
+						},
+						{
+							"fluid": {
+								"max": "44.79px",
+								"min": "39.81px"
+							},
+							"name": "3XL",
+							"size": "39.81px",
+							"slug": "3-xl"
+						},
+						{
+							"fluid": {
+								"max": "53.75px",
+								"min": "47.78px"
+							},
+							"name": "4XL",
+							"size": "47.78px",
+							"slug": "4-xl"
+						}
+					],
+					"letterSpacing": true,
+					"textDecoration": true,
+					"textTransform": true
+				},
+				"useRootPaddingAwareAlignments": true
+			},
+			"core/site-title": {
+				"appearanceTools": true,
+				"color": {
+					"background": true,
+					"custom": true,
+					"customDuotone": true,
+					"customGradient": true,
+					"defaultDuotone": true,
+					"defaultGradients": true,
+					"defaultPalette": true,
+					"duotone": [
+						{
+							"colors": [
+								"#333333",
+								"#ffffff"
+							],
+							"name": "Base and Contrast",
+							"slug": "base-and-contrast"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#024059"
+							],
+							"name": "Base and Primary",
+							"slug": "base-and-primary"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#F2CB05"
+							],
+							"name": "Base and Secondary",
+							"slug": "base-and-secondary"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#048ABF"
+							],
+							"name": "Base and Tertiary",
+							"slug": "base-and-tertiary"
+						},
+						{
+							"colors": [
+								"#333333",
+								"#F29057"
+							],
+							"name": "Base and Quaternary",
+							"slug": "base-and-quaternary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#333333"
+							],
+							"name": "Contrast and Base",
+							"slug": "contrast-and-base"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#024059"
+							],
+							"name": "Contrast and Primary",
+							"slug": "contrast-and-primary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#F2CB05"
+							],
+							"name": "Contrast and Secondary",
+							"slug": "contrast-and-secondary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#048ABF"
+							],
+							"name": "Contrast and Tertiary",
+							"slug": "contrast-and-tertiary"
+						},
+						{
+							"colors": [
+								"#ffffff",
+								"#F29057"
+							],
+							"name": "Contrast and Quaternary",
+							"slug": "contrast-and-quaternary"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#333333"
+							],
+							"name": "Primary and Base",
+							"slug": "primary-and-base"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#ffffff"
+							],
+							"name": "Primary and Contrast",
+							"slug": "primary-and-contrast"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#F2CB05"
+							],
+							"name": "Primary and Secondary",
+							"slug": "primary-and-secondary"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#048ABF"
+							],
+							"name": "Primary and Tertiary",
+							"slug": "primary-and-tertiary"
+						},
+						{
+							"colors": [
+								"#024059",
+								"#F29057"
+							],
+							"name": "Primary and Quaternary",
+							"slug": "primary-and-quaternary"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#333333"
+							],
+							"name": "Secondary and Base",
+							"slug": "secondary-and-base"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#ffffff"
+							],
+							"name": "Secondary and Contrast",
+							"slug": "secondary-and-contrast"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#024059"
+							],
+							"name": "Secondary and Primary",
+							"slug": "secondary-and-primary"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#048ABF"
+							],
+							"name": "Secondary and Tertiary",
+							"slug": "secondary-and-tertiary"
+						},
+						{
+							"colors": [
+								"#F2CB05",
+								"#F29057"
+							],
+							"name": "Secondary and Quaternary",
+							"slug": "secondary-and-quaternary"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#333333"
+							],
+							"name": "Tertiary and Base",
+							"slug": "tertiary-and-base"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#ffffff"
+							],
+							"name": "Tertiary and Contrast",
+							"slug": "tertiary-and-contrast"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#024059"
+							],
+							"name": "Tertiary and Primary",
+							"slug": "tertiary-and-primary"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#F2CB05"
+							],
+							"name": "Tertiary and Secondary",
+							"slug": "tertiary-and-secondary"
+						},
+						{
+							"colors": [
+								"#048ABF",
+								"#F29057"
+							],
+							"name": "Tertiary and Quaternary",
+							"slug": "tertiary-and-quaternary"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#333333"
+							],
+							"name": "Quaternary and Base",
+							"slug": "quaternary-and-base"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#ffffff"
+							],
+							"name": "Quaternary and Contrast",
+							"slug": "quaternary-and-contrast"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#024059"
+							],
+							"name": "Quaternary and Primary",
+							"slug": "quaternary-and-primary"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#F2CB05"
+							],
+							"name": "Quaternary and Secondary",
+							"slug": "quaternary-and-secondary"
+						},
+						{
+							"colors": [
+								"#F29057",
+								"#048ABF"
+							],
+							"name": "Quaternary and Tertiary",
+							"slug": "quaternary-and-tertiary"
+						}
+					],
+					"gradients": [
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--contrast))",
+							"name": "Base to Contrast",
+							"slug": "base-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--primary))",
+							"name": "Base to Primary",
+							"slug": "base-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--secondary))",
+							"name": "Base to Secondary",
+							"slug": "base-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--tertiary))",
+							"name": "Base to Tertiary",
+							"slug": "base-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--quaternary))",
+							"name": "Base to Quaternary",
+							"slug": "base-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--base))",
+							"name": "Contrast to Base",
+							"slug": "contrast-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--primary))",
+							"name": "Contrast to Primary",
+							"slug": "contrast-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--secondary))",
+							"name": "Contrast to Secondary",
+							"slug": "contrast-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--tertiary))",
+							"name": "Contrast to Tertiary",
+							"slug": "contrast-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--quaternary))",
+							"name": "Contrast to Quaternary",
+							"slug": "contrast-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--base))",
+							"name": "Primary to Base",
+							"slug": "primary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--contrast))",
+							"name": "Primary to Contrast",
+							"slug": "primary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--secondary))",
+							"name": "Primary to Secondary",
+							"slug": "primary-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--tertiary))",
+							"name": "Primary to Tertiary",
+							"slug": "primary-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--quaternary))",
+							"name": "Primary to Quaternary",
+							"slug": "primary-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--base))",
+							"name": "Secondary to Base",
+							"slug": "secondary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--contrast))",
+							"name": "Secondary to Contrast",
+							"slug": "secondary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--primary))",
+							"name": "Secondary to Primary",
+							"slug": "secondary-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--tertiary))",
+							"name": "Secondary to Tertiary",
+							"slug": "secondary-to-tertiary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--quaternary))",
+							"name": "Secondary to Quaternary",
+							"slug": "secondary-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--base))",
+							"name": "Tertiary to Base",
+							"slug": "tertiary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--contrast))",
+							"name": "Tertiary to Contrast",
+							"slug": "tertiary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--primary))",
+							"name": "Tertiary to Primary",
+							"slug": "tertiary-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--secondary))",
+							"name": "Tertiary to Secondary",
+							"slug": "tertiary-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--quaternary))",
+							"name": "Tertiary to Quaternary",
+							"slug": "tertiary-to-quaternary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--base))",
+							"name": "Quaternary to Base",
+							"slug": "quaternary-to-base"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--contrast))",
+							"name": "Quaternary to Contrast",
+							"slug": "quaternary-to-contrast"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--primary))",
+							"name": "Quaternary to Primary",
+							"slug": "quaternary-to-primary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--secondary))",
+							"name": "Quaternary to Secondary",
+							"slug": "quaternary-to-secondary"
+						},
+						{
+							"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--tertiary))",
+							"name": "Quaternary to Tertiary",
+							"slug": "quaternary-to-tertiary"
+						}
+					],
+					"palette": [
+						{
+							"color": "#333333",
+							"name": "Base",
+							"slug": "base"
+						},
+						{
+							"color": "#ffffff",
+							"name": "Contrast",
+							"slug": "contrast"
+						},
+						{
+							"color": "#024059",
+							"name": "Primary",
+							"slug": "primary"
+						},
+						{
+							"color": "#F2CB05",
+							"name": "Secondary",
+							"slug": "secondary"
+						},
+						{
+							"color": "#048ABF",
+							"name": "Tertiary",
+							"slug": "tertiary"
+						},
+						{
+							"color": "#F29057",
+							"name": "Quaternary",
+							"slug": "quaternary"
+						},
+						{
+							"color": "#f4f4f4",
+							"name": "Wild Sand",
+							"slug": "wild-sand"
+						},
+						{
+							"color": "#333333",
+							"name": "Darker Gray",
+							"slug": "darker-gray"
+						},
+						{
+							"color": "#666666",
+							"name": "Dark Gray",
+							"slug": "dark-gray"
+						},
+						{
+							"color": "#999999",
+							"name": "Light Gray",
+							"slug": "light-gray"
+						},
+						{
+							"color": "#cccccc",
+							"name": "Lighter Gray",
+							"slug": "lighter-gray"
+						}
+					],
+					"text": true
+				},
+				"custom": {
+					"typography": {
+						"letter-spacing": {
+							"body": "0.01em",
+							"heading": "0em"
+						},
+						"line-height": {
+							"comfortable": 1.625,
+							"loose": 2,
+							"none": 1,
+							"normal": 1.3999999999999999,
+							"tight": 1.1000000000000001,
+							"tighter": 1.2
+						}
+					}
+				},
+				"layout": {
+					"contentSize": false,
+					"wideSize": false
+				},
+				"shadow": {
+					"defaultPresets": true,
+					"presets": [
+						{
+							"name": "Blur Shadow",
+							"shadow": "0px 0px 10px var( --wp--preset--color--base )",
+							"slug": "blur-shadow"
+						}
+					]
+				},
+				"spacing": {
+					"customSpacingSize": true,
+					"spacingScale": {
+						"increment": 1.5,
+						"mediumStep": 1.5,
+						"operator": "*",
+						"steps": 7,
+						"unit": "rem"
+					},
+					"spacingSizes": [
+						{
+							"name": "XS",
+							"size": "clamp(0.63rem, calc(0.54rem + 0.36vw), 0.81rem)",
+							"slug": "xs"
+						},
+						{
+							"name": "S",
+							"size": "clamp(0.94rem, calc(0.80rem + 0.61vw), 1.25rem)",
+							"slug": "s"
+						},
+						{
+							"name": "M",
+							"size": "clamp(1.25rem, calc(1.05rem + 0.85vw), 1.69rem)",
+							"slug": "m"
+						},
+						{
+							"name": "L",
+							"size": "clamp(1.88rem, calc(1.59rem + 1.21vw), 2.50rem)",
+							"slug": "l"
+						},
+						{
+							"name": "XL",
+							"size": "clamp(2.81rem, calc(2.39rem + 1.82vw), 3.75rem)",
+							"slug": "xl"
+						},
+						{
+							"name": "2XL",
+							"size": "clamp(3.75rem, calc(3.18rem + 2.42vw), 5.00rem)",
+							"slug": "2-xl"
+						},
+						{
+							"name": "3XL",
+							"size": "clamp(5.63rem, calc(4.77rem + 3.64vw), 7.50rem)",
+							"slug": "3-xl"
+						}
+					],
+					"units": [
+						"%",
+						"px",
+						"em",
+						"rem",
+						"vh",
+						"vw"
+					]
+				},
+				"typography": {
+					"customFontSize": true,
+					"fluid": true,
+					"fontFamilies": [
+						{
+							"fontFamily": "\"Helvetica Neue\", \"Helvetica\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Arial\", \"Yu Gothic\", \"Meiryo\", sans-serif",
+							"name": "Default - System Sans Serif",
+							"slug": "system-sans-serif"
+						},
+						{
+							"fontFace": [
+								{
+									"fontFamily": "Noto Sans JP",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "400",
+									"src": [
+										"file:./assets/fonts/NotoSansJP-Regular.woff2"
+									]
+								},
+								{
+									"fontFamily": "Noto Sans JP",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "700",
+									"src": [
+										"file:./assets/fonts/NotoSansJP-Bold.woff2"
+									]
+								}
+							],
+							"fontFamily": "\"Noto Sans JP\", sans-serif",
+							"name": "Noto Sans JP",
+							"slug": "noto-sans-jp"
+						},
+						{
+							"fontFamily": "\"Times New Roman\", \"YuMincho\", \"Hiragino Mincho ProN\", \"Yu Mincho\", \"MS PMincho\", serif",
+							"name": "System Serif",
+							"slug": "system-serif"
+						},
+						{
+							"fontFamily": "ui-monospace, Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
+							"name": "System Monospace",
+							"slug": "system-monospace"
+						}
+					],
+					"fontSizes": [
+						{
+							"fluid": {
+								"max": "15px",
+								"min": "13.33px"
+							},
+							"name": "XS",
+							"size": "13.33px",
+							"slug": "xs"
+						},
+						{
+							"fluid": {
+								"max": "18px",
+								"min": "16px"
+							},
+							"name": "S",
+							"size": "16px",
+							"slug": "s"
+						},
+						{
+							"fluid": {
+								"max": "21.6px",
+								"min": "19.2px"
+							},
+							"name": "M",
+							"size": "19.2px",
+							"slug": "m"
+						},
+						{
+							"fluid": {
+								"max": "25.92px",
+								"min": "23.04px"
+							},
+							"name": "L",
+							"size": "23.04px",
+							"slug": "l"
+						},
+						{
+							"fluid": {
+								"max": "31.10px",
+								"min": "27.65px"
+							},
+							"name": "XL",
+							"size": "27.65px",
+							"slug": "xl"
+						},
+						{
+							"fluid": {
+								"max": "37.32px",
+								"min": "33.18px"
+							},
+							"name": "2XL",
+							"size": "33.18px",
+							"slug": "2-xl"
+						},
+						{
+							"fluid": {
+								"max": "44.79px",
+								"min": "39.81px"
+							},
+							"name": "3XL",
+							"size": "39.81px",
+							"slug": "3-xl"
+						},
+						{
+							"fluid": {
+								"max": "53.75px",
+								"min": "47.78px"
+							},
+							"name": "4XL",
+							"size": "47.78px",
+							"slug": "4-xl"
+						}
+					],
+					"letterSpacing": true,
+					"textDecoration": true,
+					"textTransform": true
+				},
+				"useRootPaddingAwareAlignments": true
+			}
+		},
+		"color": {
+			"background": true,
+			"custom": true,
+			"customDuotone": true,
+			"customGradient": true,
+			"defaultDuotone": true,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"duotone": [
+				{
+					"colors": [
+						"#333333",
+						"#ffffff"
+					],
+					"name": "Base and Contrast",
+					"slug": "base-and-contrast"
+				},
+				{
+					"colors": [
+						"#333333",
+						"#024059"
+					],
+					"name": "Base and Primary",
+					"slug": "base-and-primary"
+				},
+				{
+					"colors": [
+						"#333333",
+						"#F2CB05"
+					],
+					"name": "Base and Secondary",
+					"slug": "base-and-secondary"
+				},
+				{
+					"colors": [
+						"#333333",
+						"#048ABF"
+					],
+					"name": "Base and Tertiary",
+					"slug": "base-and-tertiary"
+				},
+				{
+					"colors": [
+						"#333333",
+						"#F29057"
+					],
+					"name": "Base and Quaternary",
+					"slug": "base-and-quaternary"
+				},
+				{
+					"colors": [
+						"#ffffff",
+						"#333333"
+					],
+					"name": "Contrast and Base",
+					"slug": "contrast-and-base"
+				},
+				{
+					"colors": [
+						"#ffffff",
+						"#024059"
+					],
+					"name": "Contrast and Primary",
+					"slug": "contrast-and-primary"
+				},
+				{
+					"colors": [
+						"#ffffff",
+						"#F2CB05"
+					],
+					"name": "Contrast and Secondary",
+					"slug": "contrast-and-secondary"
+				},
+				{
+					"colors": [
+						"#ffffff",
+						"#048ABF"
+					],
+					"name": "Contrast and Tertiary",
+					"slug": "contrast-and-tertiary"
+				},
+				{
+					"colors": [
+						"#ffffff",
+						"#F29057"
+					],
+					"name": "Contrast and Quaternary",
+					"slug": "contrast-and-quaternary"
+				},
+				{
+					"colors": [
+						"#024059",
+						"#333333"
+					],
+					"name": "Primary and Base",
+					"slug": "primary-and-base"
+				},
+				{
+					"colors": [
+						"#024059",
+						"#ffffff"
+					],
+					"name": "Primary and Contrast",
+					"slug": "primary-and-contrast"
+				},
+				{
+					"colors": [
+						"#024059",
+						"#F2CB05"
+					],
+					"name": "Primary and Secondary",
+					"slug": "primary-and-secondary"
+				},
+				{
+					"colors": [
+						"#024059",
+						"#048ABF"
+					],
+					"name": "Primary and Tertiary",
+					"slug": "primary-and-tertiary"
+				},
+				{
+					"colors": [
+						"#024059",
+						"#F29057"
+					],
+					"name": "Primary and Quaternary",
+					"slug": "primary-and-quaternary"
+				},
+				{
+					"colors": [
+						"#F2CB05",
+						"#333333"
+					],
+					"name": "Secondary and Base",
+					"slug": "secondary-and-base"
+				},
+				{
+					"colors": [
+						"#F2CB05",
+						"#ffffff"
+					],
+					"name": "Secondary and Contrast",
+					"slug": "secondary-and-contrast"
+				},
+				{
+					"colors": [
+						"#F2CB05",
+						"#024059"
+					],
+					"name": "Secondary and Primary",
+					"slug": "secondary-and-primary"
+				},
+				{
+					"colors": [
+						"#F2CB05",
+						"#048ABF"
+					],
+					"name": "Secondary and Tertiary",
+					"slug": "secondary-and-tertiary"
+				},
+				{
+					"colors": [
+						"#F2CB05",
+						"#F29057"
+					],
+					"name": "Secondary and Quaternary",
+					"slug": "secondary-and-quaternary"
+				},
+				{
+					"colors": [
+						"#048ABF",
+						"#333333"
+					],
+					"name": "Tertiary and Base",
+					"slug": "tertiary-and-base"
+				},
+				{
+					"colors": [
+						"#048ABF",
+						"#ffffff"
+					],
+					"name": "Tertiary and Contrast",
+					"slug": "tertiary-and-contrast"
+				},
+				{
+					"colors": [
+						"#048ABF",
+						"#024059"
+					],
+					"name": "Tertiary and Primary",
+					"slug": "tertiary-and-primary"
+				},
+				{
+					"colors": [
+						"#048ABF",
+						"#F2CB05"
+					],
+					"name": "Tertiary and Secondary",
+					"slug": "tertiary-and-secondary"
+				},
+				{
+					"colors": [
+						"#048ABF",
+						"#F29057"
+					],
+					"name": "Tertiary and Quaternary",
+					"slug": "tertiary-and-quaternary"
+				},
+				{
+					"colors": [
+						"#F29057",
+						"#333333"
+					],
+					"name": "Quaternary and Base",
+					"slug": "quaternary-and-base"
+				},
+				{
+					"colors": [
+						"#F29057",
+						"#ffffff"
+					],
+					"name": "Quaternary and Contrast",
+					"slug": "quaternary-and-contrast"
+				},
+				{
+					"colors": [
+						"#F29057",
+						"#024059"
+					],
+					"name": "Quaternary and Primary",
+					"slug": "quaternary-and-primary"
+				},
+				{
+					"colors": [
+						"#F29057",
+						"#F2CB05"
+					],
+					"name": "Quaternary and Secondary",
+					"slug": "quaternary-and-secondary"
+				},
+				{
+					"colors": [
+						"#F29057",
+						"#048ABF"
+					],
+					"name": "Quaternary and Tertiary",
+					"slug": "quaternary-and-tertiary"
+				}
+			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--contrast), var(--wp--preset--color--contrast) 50%, var(--wp--preset--color--wild-sand) 100%)",
+					"name": "Contrast to Wild Sand",
+					"slug": "contrast-to-wild-sand"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--contrast))",
+					"name": "Base to Contrast",
+					"slug": "base-to-contrast"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--primary))",
+					"name": "Base to Primary",
+					"slug": "base-to-primary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--secondary))",
+					"name": "Base to Secondary",
+					"slug": "base-to-secondary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--tertiary))",
+					"name": "Base to Tertiary",
+					"slug": "base-to-tertiary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--base), var(--wp--preset--color--quaternary))",
+					"name": "Base to Quaternary",
+					"slug": "base-to-quaternary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--base))",
+					"name": "Contrast to Base",
+					"slug": "contrast-to-base"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--primary))",
+					"name": "Contrast to Primary",
+					"slug": "contrast-to-primary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--secondary))",
+					"name": "Contrast to Secondary",
+					"slug": "contrast-to-secondary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--tertiary))",
+					"name": "Contrast to Tertiary",
+					"slug": "contrast-to-tertiary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--contrast), var(--wp--preset--color--quaternary))",
+					"name": "Contrast to Quaternary",
+					"slug": "contrast-to-quaternary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--base))",
+					"name": "Primary to Base",
+					"slug": "primary-to-base"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--contrast))",
+					"name": "Primary to Contrast",
+					"slug": "primary-to-contrast"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--secondary))",
+					"name": "Primary to Secondary",
+					"slug": "primary-to-secondary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--tertiary))",
+					"name": "Primary to Tertiary",
+					"slug": "primary-to-tertiary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--quaternary))",
+					"name": "Primary to Quaternary",
+					"slug": "primary-to-quaternary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--base))",
+					"name": "Secondary to Base",
+					"slug": "secondary-to-base"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--contrast))",
+					"name": "Secondary to Contrast",
+					"slug": "secondary-to-contrast"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--primary))",
+					"name": "Secondary to Primary",
+					"slug": "secondary-to-primary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--tertiary))",
+					"name": "Secondary to Tertiary",
+					"slug": "secondary-to-tertiary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--secondary), var(--wp--preset--color--quaternary))",
+					"name": "Secondary to Quaternary",
+					"slug": "secondary-to-quaternary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--base))",
+					"name": "Tertiary to Base",
+					"slug": "tertiary-to-base"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--contrast))",
+					"name": "Tertiary to Contrast",
+					"slug": "tertiary-to-contrast"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--primary))",
+					"name": "Tertiary to Primary",
+					"slug": "tertiary-to-primary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--secondary))",
+					"name": "Tertiary to Secondary",
+					"slug": "tertiary-to-secondary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--tertiary), var(--wp--preset--color--quaternary))",
+					"name": "Tertiary to Quaternary",
+					"slug": "tertiary-to-quaternary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--base))",
+					"name": "Quaternary to Base",
+					"slug": "quaternary-to-base"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--contrast))",
+					"name": "Quaternary to Contrast",
+					"slug": "quaternary-to-contrast"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--primary))",
+					"name": "Quaternary to Primary",
+					"slug": "quaternary-to-primary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--secondary))",
+					"name": "Quaternary to Secondary",
+					"slug": "quaternary-to-secondary"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--quaternary), var(--wp--preset--color--tertiary))",
+					"name": "Quaternary to Tertiary",
+					"slug": "quaternary-to-tertiary"
+				}
+			],
+			"palette": [
+				{
+					"color": "#333333",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#ff9000",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#0073B3",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#B36500",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#00A4FF",
+					"name": "Quaternary",
+					"slug": "quaternary"
+				},
+				{
+					"color": "#f4f4f4",
+					"name": "Wild Sand",
+					"slug": "wild-sand"
+				},
+				{
+					"color": "#333333",
+					"name": "Darker Gray",
+					"slug": "darker-gray"
+				},
+				{
+					"color": "#666666",
+					"name": "Dark Gray",
+					"slug": "dark-gray"
+				},
+				{
+					"color": "#999999",
+					"name": "Light Gray",
+					"slug": "light-gray"
+				},
+				{
+					"color": "#cccccc",
+					"name": "Lighter Gray",
+					"slug": "lighter-gray"
+				}
+			],
+			"text": true
+		},
+		"custom": {
+			"typography": {
+				"letter-spacing": {
+					"body": "0.01em",
+					"heading": "0em"
+				},
+				"line-height": {
+					"comfortable": 1.625,
+					"loose": 2,
+					"none": 1,
+					"normal": 1.3999999999999999,
+					"tight": 1.1000000000000001,
+					"tighter": 1.25
+				}
+			}
+		},
+		"layout": {
+			"contentSize": "720px",
+			"wideSize": "1120px"
+		},
+		"shadow": {
+			"defaultPresets": true,
+			"presets": [
+				{
+					"name": "Blur Shadow",
+					"shadow": "0px 0px 10px var( --wp--preset--color--base )",
+					"slug": "blur-shadow"
+				}
+			]
+		},
+		"spacing": {
+			"customSpacingSize": true,
+			"spacingScale": {
+				"increment": 1.5,
+				"mediumStep": 1.5,
+				"operator": "*",
+				"steps": 7,
+				"unit": "rem"
+			},
+			"spacingSizes": [
+				{
+					"name": "XS",
+					"size": "clamp(0.63rem, calc(0.54rem + 0.36vw), 0.81rem)",
+					"slug": "xs"
+				},
+				{
+					"name": "S",
+					"size": "clamp(0.94rem, calc(0.80rem + 0.61vw), 1.25rem)",
+					"slug": "s"
+				},
+				{
+					"name": "M",
+					"size": "clamp(1.25rem, calc(1.05rem + 0.85vw), 1.69rem)",
+					"slug": "m"
+				},
+				{
+					"name": "L",
+					"size": "clamp(1.88rem, calc(1.59rem + 1.21vw), 2.50rem)",
+					"slug": "l"
+				},
+				{
+					"name": "XL",
+					"size": "clamp(2.81rem, calc(2.39rem + 1.82vw), 3.75rem)",
+					"slug": "xl"
+				},
+				{
+					"name": "2XL",
+					"size": "clamp(3.75rem, calc(3.18rem + 2.42vw), 5.00rem)",
+					"slug": "2-xl"
+				},
+				{
+					"name": "3XL",
+					"size": "clamp(5.63rem, calc(4.77rem + 3.64vw), 7.50rem)",
+					"slug": "3-xl"
+				}
+			],
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"customFontSize": true,
+			"dropCap": false,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "\"Helvetica Neue\", \"Helvetica\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Arial\", \"Yu Gothic\", \"Meiryo\", sans-serif",
+					"name": "Default - System Sans Serif",
+					"slug": "system-sans-serif"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Noto Sans JP",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/NotoSansJP-Regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Noto Sans JP",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/NotoSansJP-Bold.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans JP\", sans-serif",
+					"name": "Noto Sans JP",
+					"slug": "noto-sans-jp"
+				},
+				{
+					"fontFamily": "\"Times New Roman\", \"YuMincho\", \"Hiragino Mincho ProN\", \"Yu Mincho\", \"MS PMincho\", serif",
+					"name": "System Serif",
+					"slug": "system-serif"
+				},
+				{
+					"fontFamily": "ui-monospace, Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
+					"name": "System Monospace",
+					"slug": "system-monospace"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Permanent Marker",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/permanent-marker_normal_400.ttf"
+							]
+						}
+					],
+					"fontFamily": "Permanent Marker",
+					"slug": "permanent-marker"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"max": "15px",
+						"min": "13.33px"
+					},
+					"name": "XS",
+					"size": "13.33px",
+					"slug": "xs"
+				},
+				{
+					"fluid": {
+						"max": "18px",
+						"min": "16px"
+					},
+					"name": "S",
+					"size": "16px",
+					"slug": "s"
+				},
+				{
+					"fluid": {
+						"max": "21.6px",
+						"min": "19.2px"
+					},
+					"name": "M",
+					"size": "19.2px",
+					"slug": "m"
+				},
+				{
+					"fluid": {
+						"max": "25.92px",
+						"min": "23.04px"
+					},
+					"name": "L",
+					"size": "23.04px",
+					"slug": "l"
+				},
+				{
+					"fluid": {
+						"max": "31.10px",
+						"min": "27.65px"
+					},
+					"name": "XL",
+					"size": "27.65px",
+					"slug": "xl"
+				},
+				{
+					"fluid": {
+						"max": "37.32px",
+						"min": "33.18px"
+					},
+					"name": "2XL",
+					"size": "33.18px",
+					"slug": "2-xl"
+				},
+				{
+					"fluid": {
+						"max": "44.79px",
+						"min": "39.81px"
+					},
+					"name": "3XL",
+					"size": "39.81px",
+					"slug": "3-xl"
+				},
+				{
+					"fluid": {
+						"max": "53.75px",
+						"min": "47.78px"
+					},
+					"name": "4XL",
+					"size": "47.78px",
+					"slug": "4-xl"
+				}
+			],
+			"fontStyle": false,
+			"fontWeight": false,
+			"letterSpacing": true,
+			"textDecoration": true,
+			"textTransform": true
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": {
+			"core/code": {
+				"color": {
+					"background": "var(--wp--preset--color--base)",
+					"text": "var(--wp--preset--color--primary)"
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--m)",
+						"top": "var(--wp--preset--spacing--m)"
+					},
+					"padding": {
+						"bottom": "var(--wp--preset--spacing--m)",
+						"left": "var(--wp--preset--spacing--m)",
+						"right": "var(--wp--preset--spacing--m)",
+						"top": "var(--wp--preset--spacing--m)"
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-monospace)"
+				}
+			},
+			"core/details": {
+				"color": {
+					"background": "var(--wp--preset--color--wild-sand)"
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--m)",
+						"top": "var(--wp--preset--spacing--m)"
+					},
+					"padding": {
+						"bottom": "var(--wp--preset--spacing--m)",
+						"left": "var(--wp--preset--spacing--m)",
+						"right": "var(--wp--preset--spacing--m)",
+						"top": "var(--wp--preset--spacing--m)"
+					}
+				}
+			},
+			"core/heading": {
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--m)",
+						"top": "var(--wp--preset--spacing--2-xl)"
+					}
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--s)",
+					"fontWeight": "700",
+					"letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
+					"lineHeight": "1.5"
+				}
+			},
+			"core/paragraph": {
+				"elements": {
+					"link": {
+						":hover": {
+							"color": {
+								"text": "var(--wp--preset--color--quaternary)"
+							}
+						},
+						"color": {
+							"text": "var(--wp--preset--color--secondary)"
+						}
+					}
+				}
+			}
+		},
+		"color": {
+			"background": "var( --wp--preset--color--contrast )",
+			"text": "var( --wp--preset--color--base )"
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontSize": "var( --wp--preset--font-size--3-xl )",
+					"fontWeight": "700",
+					"letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
+					"lineHeight": "var( --wp--custom--typography--line-height--tighter )"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var( --wp--preset--font-size--2-xl )",
+					"fontWeight": "700",
+					"letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
+					"lineHeight": "var( --wp--custom--typography--line-height--tighter )"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var( --wp--preset--font-size--xl )",
+					"fontWeight": "700",
+					"letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
+					"lineHeight": "var( --wp--custom--typography--line-height--tighter )"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var( --wp--preset--font-size--l )",
+					"fontWeight": "700",
+					"letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
+					"lineHeight": "var( --wp--custom--typography--line-height--tighter )"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "var( --wp--preset--font-size--s )",
+					"fontWeight": "700",
+					"letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
+					"lineHeight": "var( --wp--custom--typography--line-height--tighter )"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "var( --wp--preset--font-size--s )",
+					"fontWeight": "700",
+					"letterSpacing": "var( --wp--custom--typography--letter-spacing--heading )",
+					"lineHeight": "var( --wp--custom--typography--line-height--tighter )"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var( --wp--preset--color--base )"
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "var(--wp--preset--spacing--m)",
+			"padding": {
+				"bottom": "0px",
+				"left": "var(--wp--preset--spacing--s)",
+				"right": "var(--wp--preset--spacing--s)",
+				"top": "0px"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--noto-sans-jp)",
+			"fontSize": "var(--wp--preset--font-size--s)",
+			"fontWeight": "400",
+			"letterSpacing": "var( --wp--custom--typography--letter-spacing--body )",
+			"lineHeight": "var( --wp--custom--typography--line-height--comfortable )"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	],
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.3/theme.json"
+}

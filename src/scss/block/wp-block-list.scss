@@ -1,0 +1,17 @@
+.site-contents {
+  ol:not([class*="wp-block-"]),
+  ul:not([class*="wp-block-"]) {
+    padding-left: 2em;
+    li {
+      margin-bottom: calc( var( --wp--preset--spacing--xs ) / 2 );
+      &:last-child {
+        margin-bottom: 0;
+      }
+      ol,
+      ul {
+        margin-top: calc( var( --wp--preset--spacing--xs ) / 2 );
+        margin-bottom: calc( var( --wp--preset--spacing--xs ) / 2 );
+      }
+    }
+  }
+}

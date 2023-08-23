@@ -1,0 +1,11 @@
+.wp-block-search__inside-wrapper {
+  padding: 0;
+}
+.wp-block-search__input {
+  border: 1px solid var(--wp--preset--color--base);
+  padding: var(--wp--preset--spacing--xs);
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-search {
+  width: 100%;
+}

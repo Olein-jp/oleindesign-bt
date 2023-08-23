@@ -1,0 +1,20 @@
+.wp-block-buttons {
+  /**
+  Forced to zero on both side margin
+   */
+  /**
+  forced button's width to full only sm
+   */
+}
+.wp-block-buttons.wp-block-buttons_forced-side-margin-to-zero {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+@media (max-width: 600px) {
+  .wp-block-buttons.wp-block-buttons_full-width-sm > .wp-block-button {
+    width: 100%;
+  }
+  .wp-block-buttons.wp-block-buttons_full-width-sm > .wp-block-button a {
+    width: 100%;
+  }
+}

@@ -1,0 +1,36 @@
+.wp-block-navigation {
+  // メニューオープン時のスタイル
+  &__responsive-container {
+    &.is-menu-open {
+      .wp-block-navigation__responsive-container-content {
+      }
+    }
+  }
+  // 平時のスタイル
+  & &__container {
+    .wp-block-navigation-item {
+      &__content {
+        padding-top: var( --wp--preset--spacing--s );
+        padding-bottom: var( --wp--preset--spacing--s );
+      }
+      &.has-child {
+        .wp-block-navigation-submenu {
+          min-width: 400px;
+          top: 100%;
+          left: -50px;
+          border: none;
+        }
+        .wp-block-navigation-item {
+          &:nth-child(2n) {
+            background-color: #ffffff;
+          }
+          &:nth-child(2n-1) {
+            background-color: #f4f4f4;
+          }
+        }
+      }
+    }
+  }
+}
+
+//.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item__content
