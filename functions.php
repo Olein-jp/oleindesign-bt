@@ -57,7 +57,7 @@ if ( ! function_exists( 'oleindesign_enqueue_block_styles' ) ) {
 	/**
 	 * Enqueue Block Style CSS
 	 *
-	 * @since 3.0.0
+	 * @since 1.0.0
 	 */
 	function oleindesign_enqueue_block_styles(): void {
 		$files = glob( get_template_directory() . '/assets/css/block/*.css' );
