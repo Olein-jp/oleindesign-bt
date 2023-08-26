@@ -12,7 +12,7 @@ if ( ! function_exists( 'oleindesign_register_block_categories' ) ) {
 	 */
 	function oleindesign_register_block_pattern_categories() {
 		$oleindesign_block_pattern_categories = array(
-			'oleindesign-cta'         => array( 'label' => __( 'CTA', 'oleindesign' ) ),
+//			'oleindesign-cta'         => array( 'label' => __( 'CTA', 'oleindesign' ) ),
 		);
 		/**
 		 * Filter to add block pattern categories
