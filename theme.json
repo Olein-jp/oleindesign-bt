@@ -3532,8 +3532,13 @@
 	"templateParts": [
 		{
 			"area": "header",
-			"name": "header",
-			"title": "Header"
+			"name": "header-default",
+			"title": "Header Default"
+		},
+		{
+			"area": "header",
+			"name": "header-h1-title",
+			"title": "Header h1 Title"
 		},
 		{
 			"area": "footer",
