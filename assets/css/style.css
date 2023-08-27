@@ -61,6 +61,16 @@ label {
   border-width: 0;
 }
 
+.wp-block-post-content.block-editor-block-list__layout .wp-block-paragraph > code {
+  display: inline-block;
+  background-color: var(--wp--preset--color--base);
+  color: var(--wp--preset--color--primary);
+  font-family: var(--wp--preset--font-family--system-monospace);
+  margin-left: calc(var(--wp--preset--spacing--xs) * 0.5);
+  margin-right: calc(var(--wp--preset--spacing--xs) * 0.5);
+  padding: 0 var(--wp--preset--spacing--xs);
+}
+
 .snow-monkey-form .smf-form .smf-item .smf-text-control__control,
 .snow-monkey-form .smf-form .smf-item .smf-textarea-control__control {
   border: 2px solid var(--wp--preset--color--lighter-gray);
