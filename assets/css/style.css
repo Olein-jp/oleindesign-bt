@@ -61,14 +61,17 @@ label {
   border-width: 0;
 }
 
-.wp-block-post-content.block-editor-block-list__layout .wp-block-paragraph > code {
+.wp-block-post-content.block-editor-block-list__layout {
+  padding-bottom: 100px !important;
+}
+.wp-block-post-content.block-editor-block-list__layout *:not(.wp-block-code) > code {
   display: inline-block;
   background-color: var(--wp--preset--color--base);
   color: var(--wp--preset--color--primary);
   font-family: var(--wp--preset--font-family--system-monospace);
-  margin-left: calc(var(--wp--preset--spacing--xs) * 0.5);
-  margin-right: calc(var(--wp--preset--spacing--xs) * 0.5);
-  padding: 0 var(--wp--preset--spacing--xs);
+  margin-left: calc(var(--wp--preset--spacing--xs) * 0.25);
+  margin-right: calc(var(--wp--preset--spacing--xs) * 0.25);
+  padding: 0 calc(var(--wp--preset--spacing--xs) * 0.5);
 }
 
 .snow-monkey-form .smf-form .smf-item .smf-text-control__control,
